@@ -1,3 +1,8 @@
+ chore/setup-react-frontend
+
+* {
+  box-sizing: border-box;
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -48,10 +53,16 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+ main
 }
 
 body {
   margin: 0;
+ chore/setup-react-frontend
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+
 }
 
 #root {
@@ -108,4 +119,5 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+ main
 }

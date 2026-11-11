@@ -1,3 +1,113 @@
+ chore/setup-react-frontend
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  min-height: 70vh;
+}
+
+aside {
+  width: 220px;
+  padding: 20px;
+  background: #f0f2f5;
+  border-radius: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin: 15px 0;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+article {
+  padding: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+header,
+footer {
+  padding: 20px;
+  background: #172554;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  aside {
+    width: auto;
+    
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -180,5 +290,6 @@
   &::after {
     right: 0;
     border-right-color: var(--border);
+main
   }
 }
