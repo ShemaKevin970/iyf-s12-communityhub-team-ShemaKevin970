@@ -1,13 +1,21 @@
 
+import { Link } from 'react-router-dom'
+
 function Sidebar() {
   return (
     <aside>
       <h2>Community Menu</h2>
 
       <ul>
-        <li><a href="#posts">All Posts</a></li>
-        <li><a href="#profile">My Profile</a></li>
-        <li><a href="#settings">Settings</a></li>
+        <li>
+          <Link to="/posts">All Posts</Link>
+        </li>
+        <li>
+          <Link to="/create-post">Create a Post</Link>
+        </li>
+        <li>
+          <Link to="/about">About CommunityHub</Link>
+        </li>
       </ul>
     </aside>
   )
