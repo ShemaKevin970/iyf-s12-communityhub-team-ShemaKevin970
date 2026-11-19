@@ -1,12 +1,16 @@
 
+import { Link } from 'react-router-dom'
+
 function Header() {
   return (
     <header>
       <h1>CommunityHub</h1>
+
       <nav>
-        <a href="/">Home</a>
-        <a href="#posts">Posts</a>
-        <a href="#profile">Profile</a>
+        <Link to="/">Home</Link>
+        <Link to="/posts">Posts</Link>
+        <Link to="/create-post">Create Post</Link>
+        <Link to="/about">About</Link>
       </nav>
     </header>
   )
