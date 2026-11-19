@@ -17,7 +17,7 @@ CommunityHub is a simple community platform where users can:
 - Vite
 - React Router
 - JavaScript
-- CSS
+- CSS Modules
 - JSONPlaceholder API
 - Local Storage
 
@@ -29,7 +29,8 @@ CommunityHub is a simple community platform where users can:
 - Created reusable custom hooks: `useFetch` and `useLocalStorage`.
 - Added loading and error states for data fetching.
 - Added local post creation with Local Storage persistence.
-- Improved responsive styling for mobile and desktop screens.
+- Implemented CSS Modules for scoped component and page styling.
+- Added responsive styling for mobile and desktop screens.
 
 ## Testing and Quality Checks
 
@@ -41,12 +42,14 @@ The following checks were completed:
 
 ## Lighthouse Accessibility Audit
 
-| Device | Accessibility Score |
-|---|---:|
-| Mobile | 100/100 |
-| Desktop | 100/100 |
+Lighthouse Accessibility audit results:
 
-These are the latest recorded Lighthouse accessibility results.
+| Device | Before Improvements | After Improvements |
+|---|---:|---:|
+| Mobile | 100/100 | 100/100 |
+| Desktop | 100/100 | 100/100 |
+
+The application maintained a perfect accessibility score before and after the accessibility review.
 
 ## Contributors
 

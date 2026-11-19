@@ -1,7 +1,7 @@
-
 import { Link } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
 import useLocalStorage from '../hooks/useLocalStorage'
+import styles from './Posts.module.css'
 
 const englishPosts = [
   {
@@ -52,11 +52,11 @@ function Posts() {
   }
 
   return (
-    <section className="page">
+    <section className={styles.page}>
       <h1>Community Posts</h1>
 
       {englishPosts.map((post) => (
-        <article className="post-card" key={post.id}>
+        <article className={styles.postCard} key={post.id}>
           <h2>{post.title}</h2>
           <p>{post.body}</p>
 
@@ -67,7 +67,7 @@ function Posts() {
       ))}
 
       {createdPosts.map((post) => (
-        <article className="post-card" key={post.id}>
+        <article className={styles.postCard} key={post.id}>
           <h2>{post.title}</h2>
           <p>{post.body}</p>
 

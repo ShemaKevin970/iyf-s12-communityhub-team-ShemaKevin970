@@ -7,7 +7,7 @@
 
 ## Week 8 Contributions
 
-- Chukwuma Ndukwu (@chukwuma-n) — React frontend setup, CommunityHub components, post creation, and utility tests.
+-- Chukwuma Ndukwu (@chukwuma-n) — Implemented React Router navigation, five application pages, dynamic post details using `useParams`, custom hooks, data-fetching states, local storage persistence, responsive styling, and CSS Modules for scoped styling.
 
 ## Week 9 Contributions
 

@@ -1,7 +1,7 @@
-
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useLocalStorage from '../hooks/useLocalStorage'
+import styles from './CreatePostPage.module.css'
 
 function CreatePostPage() {
   const [posts, setPosts] = useLocalStorage('community-posts', [])
@@ -31,10 +31,10 @@ function CreatePostPage() {
   }
 
   return (
-    <section className="page">
+    <section className={styles.page}>
       <h1>Create a Post</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <label htmlFor="post-title">Post Title</label>
         <input
           id="post-title"
