@@ -12,5 +12,6 @@
 ## Week 9 Contributions
 
 - Chukwuma Ndukwu (@chukwuma-n) — Implemented React Router navigation, five application pages, dynamic post details using `useParams`, custom hooks, data-fetching states, local storage persistence, and responsive styling.
+- Shema Kevin (@ShemaKevin970) — Week 9: Lighthouse audit + Accessibility fixes + README documentation + Reviewed and merged PR #4 (CSS Modules)
 
 **Week 9 Pull Request:** [PR #3 — Week 9: React Advanced Features and Routing](https://github.com/ShemaKevin970/iyf-s12-communityhub-team-ShemaKevin970/pull/3)
