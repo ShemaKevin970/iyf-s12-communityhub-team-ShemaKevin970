@@ -54,3 +54,16 @@ The application maintained a perfect accessibility score before and after the ac
 ## Contributors
 
 See [CONTRIBUTORS.md](./CONTRIBUTORS.md) for team members and their contributions.
+
+## Week 9 - Lighthouse Audit (by Shema Kevin)
+
+**Before:** Accessibility 100/100
+**After:** Accessibility 100/100
+
+Verified no regressions after Week 9 review.
+
+### Fixes made:
+- Added alt text to images
+- Fixed button labels for screen readers
+- Improved color contrast for text
+- Verified responsive layout on mobile
