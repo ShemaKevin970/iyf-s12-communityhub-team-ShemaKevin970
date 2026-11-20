@@ -1,7 +1,9 @@
 
+import styles from './Footer.module.css'
+
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <p>&copy; 2026 CommunityHub. All rights reserved.</p>
     </footer>
   )

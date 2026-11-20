@@ -1,7 +1,8 @@
+import styles from './About.module.css'
 
 function About() {
   return (
-    <section className="page">
+    <section className={styles.page}>
       <h1>About CommunityHub</h1>
 
       <p>

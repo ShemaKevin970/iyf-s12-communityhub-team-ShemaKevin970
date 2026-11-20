@@ -1,0 +1,22 @@
+.page {
+  margin-bottom: 25px;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.page h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+@media (max-width: 650px) {
+  .page {
+    padding: 18px;
+  }
+
+  .page h1 {
+    font-size: 26px;
+  }
+}

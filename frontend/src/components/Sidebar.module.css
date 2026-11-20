@@ -1,0 +1,42 @@
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  padding: 20px;
+  background: #e9edf5;
+  border-radius: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin: 15px 0;
+}
+
+.link {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .item {
+    margin: 5px 0;
+  }
+}

@@ -1,5 +1,6 @@
 
 import { Routes, Route } from 'react-router-dom'
+import styles from './App.module.css'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -13,13 +14,13 @@ import About from './pages/About'
 
 function App() {
   return (
-    <div>
+    <div className={styles.app}>
       <Header />
 
-      <div className="layout">
+      <div className={styles.layout}>
         <Sidebar />
 
-        <main>
+        <main className={styles.main}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/posts" element={<Posts />} />

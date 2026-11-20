@@ -1,7 +1,7 @@
-
 import { Link, useParams } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
 import useLocalStorage from '../hooks/useLocalStorage'
+import styles from './PostDetail.module.css'
 
 const englishPosts = [
   {
@@ -62,7 +62,7 @@ function PostDetail() {
   }
 
   return (
-    <section className="page">
+    <section className={styles.page}>
       <h1>{post.title}</h1>
       <p>{post.body}</p>
 

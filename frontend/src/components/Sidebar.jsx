@@ -1,20 +1,29 @@
 
 import { Link } from 'react-router-dom'
+import styles from './Sidebar.module.css'
 
 function Sidebar() {
   return (
-    <aside>
+    <aside className={styles.sidebar}>
       <h2>Community Menu</h2>
 
-      <ul>
-        <li>
-          <Link to="/posts">All Posts</Link>
+      <ul className={styles.list}>
+        <li className={styles.item}>
+          <Link className={styles.link} to="/posts">
+            All Posts
+          </Link>
         </li>
-        <li>
-          <Link to="/create-post">Create a Post</Link>
+
+        <li className={styles.item}>
+          <Link className={styles.link} to="/create-post">
+            Create a Post
+          </Link>
         </li>
-        <li>
-          <Link to="/about">About CommunityHub</Link>
+
+        <li className={styles.item}>
+          <Link className={styles.link} to="/about">
+            About CommunityHub
+          </Link>
         </li>
       </ul>
     </aside>
