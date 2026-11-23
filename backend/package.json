@@ -1,0 +1,18 @@
+{
+  "name": "communityhub-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CommunityHub Lesson 19 Posts API",
+  "main": "exercises/chukwuma-n/posts-api.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node exercises/chukwuma-n/posts-api.js",
+    "dev": "node --watch exercises/chukwuma-n/posts-api.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
