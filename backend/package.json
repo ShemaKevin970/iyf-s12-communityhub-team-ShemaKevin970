@@ -1,0 +1,20 @@
+{
+  "name": "communityhub-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CommunityHub API (Express)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
