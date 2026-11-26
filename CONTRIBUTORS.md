@@ -14,3 +14,7 @@
 - Chukwuma Ndukwu (@chukwuma-n) — Implemented React Router navigation, five application pages, dynamic post details using `useParams`, custom hooks, data-fetching states, local storage persistence, and responsive styling.
 
 **Week 9 Pull Request:** [PR #3 — Week 9: React Advanced Features and Routing](https://github.com/ShemaKevin970/iyf-s12-communityhub-team-ShemaKevin970/pull/3)
+
+## Week 10 Contributions
+
+- Chukwuma Ndukwu (@chukwuma-n) — Implemented the CommunityHub Express backend, including the Posts API (CRUD, filtering, sorting and pagination), Users API with validation, request logging middleware, error handling, and nested Comments endpoints with input validation.
