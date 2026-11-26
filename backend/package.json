@@ -2,17 +2,19 @@
   "name": "communityhub-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "CommunityHub Lesson 19 Posts API",
-  "main": "exercises/chukwuma-n/posts-api.js",
+  "description": "CommunityHub API (Express)",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node exercises/chukwuma-n/posts-api.js",
-    "dev": "node --watch exercises/chukwuma-n/posts-api.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
+    "dotenv": "^18.0.10",
     "express": "^5.3.0"
   }
 }
