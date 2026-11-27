@@ -26,6 +26,8 @@ const store = {
     },
   ],
   nextId: 4,
+  comments: [],
+  nextCommentId: 1,
 };
 
 module.exports = store;
